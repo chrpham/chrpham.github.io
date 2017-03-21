@@ -7,7 +7,7 @@ if($_POST['message']) {
 					<p><strong>Name:</strong> ".$_POST['name']."</p>
 					<p><strong>Email:</strong> ".$_POST['email']."</p>
 					<p><strong>Message:</strong> ".$_POST['message']."</p>";
-		$subject="Premium template message: ".$_POST['subject'];
+		$subject="Subject: ".$_POST['subject'];
 		mail($mail, $subject, $message, "Content-type: text/html; charset=utf-8 \r\n");
 		echo 'AAAAAAAAAAAAAAA';
 }
