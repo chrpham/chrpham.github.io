@@ -537,7 +537,20 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-bg-section {
   background: rgba(0, 0, 0, 0.05);
 }
-
+#fh5co-project
+{
+    color: black;
+    	background: #A8E6CE; /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  background: -webkit-linear-gradient(#A8E6CE,#DCEDC2,#FFD3B5,#FFAAA6,#FF8C94);
+  /* For Opera 11.1 to 12.0 */
+  background: -o-linear-gradient(#A8E6CE,#DCEDC2,#FFD3B5,#FFAAA6,#FF8C94);
+  /* For Fx 3.6 to 15 */
+  background: -moz-linear-gradient(#A8E6CE,#DCEDC2,#FFD3B5,#FFAAA6,#FF8C94);
+  /* Standard syntax */
+  background: linear-gradient(#A8E6CE,#DCEDC2,#FFD3B5,#FFAAA6,#FF8C94);
+    background-size: fill;
+}
 #fh5co-explore,
 #fh5co-pricing,
 #fh5co-testimonial,
