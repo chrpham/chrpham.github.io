@@ -5,6 +5,9 @@
   font-weight: normal;
   font-style: normal;
 }
+.hover_img a { position:relative; }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span { display:block; }
 /* =======================================================
 *
 * 	Template Style 
@@ -47,13 +50,13 @@ body {
 }
 
 a {
-  color: #EA9215;
+  color: #d38312;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #EA9215;
+  color: #d38312;
   outline: none;
   text-decoration: none;
 }
