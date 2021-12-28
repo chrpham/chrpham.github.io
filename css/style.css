@@ -74,6 +74,32 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 0 20px 0;
 }
 
+.banner {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align:center;
+}
+.banner h1{
+  background-color:white;
+  font-weight: 500;
+  padding: 5px;
+  margin-top: 80px;
+  width: auto;
+  font-size: 60px;
+}
+.banner h2 {
+  background-color:white;
+  padding: 5px;
+  margin: 15px 0px;
+  width: auto;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: .2ex;
+} 
+
 ::-webkit-selection {
   color: #fff;
   background: #EA9215;
@@ -206,7 +232,6 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav ul li a {
   font-size: 15px;
   padding: 30px 15px;
-  color: #000;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
